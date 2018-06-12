@@ -387,7 +387,7 @@ textarea.input {
 
 @media only screen and (max-width: 767px) {
   .navbar-brand {
-    padding-left: 20px;
+    padding-left: 15px;
   }
   .navbar-menu {
     margin: 0px -15px;
@@ -1287,6 +1287,7 @@ textarea.input {
 }
 
 .footer {
+  margin-top: -20px;
   margin-bottom: 30px;
 }
 
@@ -1541,4 +1542,81 @@ textarea.input {
   width: 20px;
   border-color: #0899ba;
   background: #0899ba;
+}
+
+/*----------------------------*\
+	custom gallery
+\*----------------------------*/
+
+div.gallery {
+    float: left;
+    width: 24%;
+    padding: 15px;
+}
+
+
+div.gallery img {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #0899ba;
+    height: auto;
+}
+
+div.gallery:hover {
+    opacity: 0.6;
+    
+}
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    div.gallery {
+        float: left;
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.gallery {
+        float: left;
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#home-image {
+  display: inline-block;
+  margin-bottom: 20px;
+  float: left;
+  border-radius: 10px;
+  width: 100%;
+  vertical-align: middle
+}
+
+@media only screen and (min-width: 992px) {
+  .center {
+    display: flex;
+    /* flex-direction: column;*/
+    align-items: center;
+    /* justify-content: center;*/"
 }
