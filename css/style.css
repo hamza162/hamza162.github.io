@@ -1362,9 +1362,9 @@ textarea.input {
   transition: 0.3s opacity;
 }
 
-/*.footer-galery li a:hover:after {
+.footer-galery li a:hover:after {
   opacity: 0.6;
-}*/
+}
 
 .footer-galery li a>img {
   width: 100%;
