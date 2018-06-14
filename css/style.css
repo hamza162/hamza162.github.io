@@ -85,7 +85,12 @@ a:hover, a:focus {
 ul, ol {
   margin: 0;
   padding: 0;
-  list-style: none
+  padding-left: 20px;
+  
+}
+
+li {
+  padding-top: 3px;
 }
 
 blockquote {
